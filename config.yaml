@@ -6,7 +6,7 @@ encoder_nblocks: 5                         #number of residual blocks in the enc
 decoder_nblocks: 40                        #number of residual blocks in the decoder
 
 #dataset settings
-dataset_path: vimeo90k_dataset.h5          #dataset path
+dataset_path: ../../vimeo_90k.h5          #dataset path
 patch_size: 64                             #patch size for training, should be the same as width/height above
 num_workers: 1                             #number of threads in the dataloader
 
