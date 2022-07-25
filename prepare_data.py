@@ -10,7 +10,7 @@ args = parser.parse_args()
 
 root=args.dataset
 output=args.output
-trainlist=np.genfromtxt(root+'seq_trainlist.txt',dtype='str')
+trainlist=np.genfromtxt(root+'tri_trainlist.txt',dtype='str')
 pre_hr=root+'sequences/'
 
 
